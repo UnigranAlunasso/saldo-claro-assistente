@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { accountLine, detectIntent, formatMoney, sandbox } from "./assistant";
+import { accountLine, detectIntent, formatMoney, sandbox } from "@/lib/assistant";
 
 describe("assistente", () => {
   it("cartão de crédito aparece como dívida", () => {
