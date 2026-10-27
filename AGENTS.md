@@ -8,3 +8,6 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+## Rules
+- Assistant data comes only from src/data/sandbox.json; intent detection and formatting live in src/lib/assistant.ts (no backend, no keys in the front-end).
