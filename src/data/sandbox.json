@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "fonte": "Plaid Sandbox (dados fictícios), lidos pela API em 27/10/2026",
+    "aviso": "Dados fictícios de teste. Não representa o Open Finance brasileiro.",
+    "regra_valores": "Em transações, valor positivo é saída de dinheiro. Em cartão de crédito, o saldo atual é o valor devido (dívida).",
+    "moeda": "USD",
+    "conversao_brl": { "de": "USD", "para": "BRL", "taxa": 5.0, "declarada": true, "nota": "Taxa fixa e ilustrativa, não é cotação real." }
+  },
+  "accounts": [
+    { "nome": "Plaid Checking", "tipo": "Conta corrente", "saldo_atual": 110.00, "saldo_disponivel": 100.00, "divida": false },
+    { "nome": "Plaid Saving", "tipo": "Poupança", "saldo_atual": 210.00, "saldo_disponivel": 200.00, "divida": false },
+    { "nome": "Plaid CD", "tipo": "Certificado de depósito", "saldo_atual": 1000.00, "saldo_disponivel": null, "divida": false },
+    { "nome": "Plaid Credit Card", "tipo": "Cartão de crédito", "saldo_atual": 410.00, "saldo_disponivel": null, "divida": true },
+    { "nome": "Plaid Money Market", "tipo": "Conta money market", "saldo_atual": 43200.00, "saldo_disponivel": 43200.00, "divida": false },
+    { "nome": "Plaid IRA", "tipo": "Investimento (IRA)", "saldo_atual": 320.76, "saldo_disponivel": null, "divida": false },
+    { "nome": "Plaid 401k", "tipo": "Investimento (401k)", "saldo_atual": 23631.98, "saldo_disponivel": null, "divida": false },
+    { "nome": "Plaid Student Loan", "tipo": "Empréstimo estudantil", "saldo_atual": 65262.00, "saldo_disponivel": null, "divida": false },
+    { "nome": "Plaid Mortgage", "tipo": "Hipoteca", "saldo_atual": 56302.06, "saldo_disponivel": null, "divida": false },
+    { "nome": "Plaid HSA", "tipo": "Conta HSA", "saldo_atual": 6009.00, "saldo_disponivel": 6009.00, "divida": false },
+    { "nome": "Plaid Cash Management", "tipo": "Gestão de caixa", "saldo_atual": 12060.00, "saldo_disponivel": 12060.00, "divida": false },
+    { "nome": "Plaid Auto Loan", "tipo": "Financiamento de veículo", "saldo_atual": 23211.33, "saldo_disponivel": null, "divida": false },
+    { "nome": "Plaid Home Equity Line of Credit", "tipo": "Linha de crédito imobiliária", "saldo_atual": 13500.50, "saldo_disponivel": 47647.50, "divida": false },
+    { "nome": "Plaid Business Credit Card", "tipo": "Cartão empresarial", "saldo_atual": 5020.00, "saldo_disponivel": 4980.00, "divida": true }
+  ],
+  "spendingByCategory": [
+    { "categoria": "Transferências de saída", "total": 20550.00 },
+    { "categoria": "Pagamentos de empréstimos", "total": 6310.50 },
+    { "categoria": "Alimentação e bebidas", "total": 1548.99 },
+    { "categoria": "Transporte", "total": 1535.19 },
+    { "categoria": "Aluguel e serviços", "total": 1500.00 },
+    { "categoria": "Viagens", "total": 1500.00 },
+    { "categoria": "Compras gerais", "total": 268.20 },
+    { "categoria": "Cuidados pessoais", "total": 235.50 }
+  ],
+  "topExpenses": [
+    { "data": "2026-08-11", "descricao": "ACH Electronic Credit GUSTO PAY 123456", "categoria": "Transferências de saída", "conta": "Plaid Money Market", "valor": 5850.00 },
+    { "data": "2026-09-10", "descricao": "ACH Electronic Credit GUSTO PAY 123456", "categoria": "Transferências de saída", "conta": "Plaid Money Market", "valor": 5850.00 },
+    { "data": "2026-10-10", "descricao": "ACH Electronic Credit GUSTO PAY 123456", "categoria": "Transferências de saída", "conta": "Plaid Money Market", "valor": 5850.00 },
+    { "data": "2026-10-20", "descricao": "AUTOMATIC PAYMENT - THANK", "categoria": "Pagamentos de empréstimos", "conta": "Plaid Credit Card", "valor": 2078.50 },
+    { "data": "2026-09-20", "descricao": "AUTOMATIC PAYMENT - THANK", "categoria": "Pagamentos de empréstimos", "conta": "Plaid Credit Card", "valor": 2078.50 }
+  ]
+}
